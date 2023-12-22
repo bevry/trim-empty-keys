@@ -1,12 +1,11 @@
 import { isPlainObject } from 'typechecker'
 
-/** Trim nested keys which values are nullish, empty strings, or zero-length arrays, sets, maps, and plain objects */
+/** Trim nested keys which values are nullish, or zero-length arrays, sets, maps, and plain objects */
 export function trimEmptyKeys(obj: any) {
 	if (!isPlainObject(obj)) return obj
 	for (const [key, value] of Object.entries(obj)) {
 		if (
 			value == null ||
-			value === '' ||
 			(Array.isArray(value) && value.length === 0) ||
 			(value instanceof Set && value.size === 0) ||
 			(value instanceof Map && value.size === 0)

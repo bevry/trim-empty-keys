@@ -1,6 +1,6 @@
 {
   "name": "trim-empty-keys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Artistic-2.0",
   "description": "Trim empty, nullish, or falsey keys from your JSON object",
   "homepage": "https://github.com/bevry/trim-empty-keys",

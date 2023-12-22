@@ -52,7 +52,7 @@ Trim empty, nullish, or falsey keys from your JSON object
 
 ``` html
 <script type="module">
-    import pkg from '//cdn.skypack.dev/trim-empty-keys@^1.0.0'
+    import pkg from '//cdn.skypack.dev/trim-empty-keys@^1.0.1'
 </script>
 ```
 
@@ -60,7 +60,7 @@ Trim empty, nullish, or falsey keys from your JSON object
 
 ``` html
 <script type="module">
-    import pkg from '//unpkg.com/trim-empty-keys@^1.0.0'
+    import pkg from '//unpkg.com/trim-empty-keys@^1.0.1'
 </script>
 ```
 
@@ -68,7 +68,7 @@ Trim empty, nullish, or falsey keys from your JSON object
 
 ``` html
 <script type="module">
-    import pkg from '//dev.jspm.io/trim-empty-keys@1.0.0'
+    import pkg from '//dev.jspm.io/trim-empty-keys@1.0.1'
 </script>
 ```
 

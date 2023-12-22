@@ -41,7 +41,6 @@ kava.suite('trim-empty-keys', function (suite, test) {
 				_object: {
 					_undefined: void 0,
 					_null: null,
-					_string: '',
 					_array: [],
 					_set: new Set(),
 					_map: new Map(),
@@ -54,6 +53,7 @@ kava.suite('trim-empty-keys', function (suite, test) {
 				bool: true,
 				_bool: false,
 				string: ' ',
+				_string: '',
 				array: [1],
 				set: new Set([1]),
 				map: new Map([['a', 1]]),
@@ -63,6 +63,7 @@ kava.suite('trim-empty-keys', function (suite, test) {
 					bool: true,
 					_bool: false,
 					string: ' ',
+					_string: '',
 					array: [1],
 					set: new Set([1]),
 					map: new Map([['a', 1]]),
